@@ -1,0 +1,30 @@
+.firstnumber, .secondnumber{
+  height: 50px;
+  font-size: 35px;
+}
+
+.operator {
+  height: 50px;
+  width: 35px;
+  font-size: 35px;
+}
+
+.result{
+  height: 50px;
+  width: 500px;
+  font-size: 35px;
+}
+
+.addition, .subtraction, .multiplication, .division, .C {
+  font-size: 35px;
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  font-size: 35px;
+  height: 50px;
+  width: 150px;
+  background-color: grey;
+  color: white;
+}
