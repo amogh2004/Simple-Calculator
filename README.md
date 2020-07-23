@@ -3,7 +3,7 @@ Very simple calculator that can run on any browser.
 <div>
   <span>
     <img src="https://github.com/amogh2004/Simple-Calculator/blob/master/images/1.png" alt="Addition" width="450" height=225">
-  </span>
+  </span>                                                                                                                      
   <span>
     <img src="https://github.com/amogh2004/Simple-Calculator/blob/master/images/2.png" alt="Subtraction" width="450" height="225">
   </span>
