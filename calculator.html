@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/calculator-styles.css">
+  <link rel="stylesheet" href="css/calculator-styles.css">
   <title>Simple Calculator</title>
 </head>
 <body>
   <h1 class="heading">SIMPLE CALCULATOR</h1>
   <div>
     <span>
-      <input type="text" id="firstnumber" class="firstnumber" placeholder="First Number">
+      <input type="text" id="firstnumber" class="firstnumber" placeholder="x">
     </span>
     <span>
       <input type="text" id="operator" class="operator" placeholder="">
     </span>
     <span>
-      <input type="text" id="secondnumber" class="secondnumber" placeholder="Second Number">
-    </span><br /><br />
+      <input type="text" id="secondnumber" class="secondnumber" placeholder="y">
+    </span>
+    <br /><br />
   </div>
 
-  <script src="../js/calculator-script.js"></script>
+  <script src="js/calculator-script.js"></script>
 
   <div>
     <span>
@@ -37,9 +38,60 @@
       <button type="button" class="division" onclick="division()">/</button>
     </span>
     <span>
-      <button type="button" class= "C" onclick="removeValues()" style="background-color: grey">C</button>
+      <button type="button" class="percentage" onclick="percentage()">%</button>
     </span>
     <br /><br />
+  </div>
+
+  <div>
+    <span>
+      <button type="button" class="factorial" onclick="factorial()">x!</button>
+    </span>
+    <span>
+      <button type="button" class="topower" onclick="topower()">x^y</button>
+    </span>
+    <span>
+      <button type="button" class="squareroot" onclick="squareroot()">√x</button>
+    </span>
+    <span>
+      <button type="button" class="inverseof" onclick="inverseof()">1/x</button>
+    </span>
+    <br /><br />
+  </div>
+
+  <div>
+    <span>
+      <button type="button" class="sinx" onclick="sinx()">sin(x)</button>
+    </span>
+    <span>
+      <button type="button" class="cosx" onclick="cosx()">cos(x)</button>
+    </span>
+    <span>
+      <button type="button" class="tanx" onclick="tanx()">tan(x)</button>
+    </span>
+    <span>
+      <button type="button" class="logx" onclick="logx()">log(x)</button>
+    </span>
+    <br /><br />
+  </div>
+
+  <div>
+    <span>
+      <button type="button" class="sinx" onclick="sinhx()">sinh(x)</button>
+    </span>
+    <span>
+      <button type="button" class="cosx" onclick="coshx()">cosh(x)</button>
+    </span>
+    <span>
+      <button type="button" class="tanx" onclick="tanhx()">tanh(x)</button>
+    </span>
+    <br /><br />
+  </div>
+
+  <div>
+    <span>
+      <button type="button" class= "C" onclick="removeValues()" style="background-color: grey">C</button>
+    </span>
   </div>
 
   <div>

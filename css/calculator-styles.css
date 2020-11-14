@@ -5,7 +5,7 @@
 
 .operator {
   height: 50px;
-  width: 35px;
+  width: 50px;
   font-size: 35px;
 }
 
@@ -15,10 +15,28 @@
   font-size: 35px;
 }
 
-.addition, .subtraction, .multiplication, .division, .C {
+.addition, .subtraction, .multiplication, .division, .percentage, .factorial, .squareroot {
   font-size: 35px;
   height: 50px;
   width: 50px;
+}
+
+.topower, .inverseof {
+  font-size: 35px;
+  height: 50px;
+  width: 70px;
+}
+
+.logx, .sinx, .cosx, .tanx {
+  font-size: 35px;
+  height: 50px;
+  width: 120px;
+}
+
+.C {
+  font-size: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 .button {
